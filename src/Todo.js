@@ -40,7 +40,6 @@ function Todo(props) {
               <Button variant="contained" onClick={updateTodo}>Update Todo</Button>
             </div>
         </Modal>
-
         <List className="TodoList">
         <ListItem>
         <ListItemAvatar>
@@ -53,5 +52,4 @@ function Todo(props) {
         </>
     )
 }
-
 export default Todo;
